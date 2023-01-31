@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="logo">
+            <img src="/img/picwish.png" alt="" class="logo__img">
+            
+            <img src="/img/icons8-brigadeiro-96.png" alt="" class="icones__img1">
+            <img src="/img/icons8-confeitaria-50.png" alt="" class="icones__img2">
+        </div>
+    </header>
+
+        <section class="container__doces">
+            <div class="sobre__doces">
+                <h2></h2>
+                <p>"Experimente o sabor autêntico do Brasil com nossos brigadeiros artesanais! Feitos com ingredientes frescos e de qualidade, nossos brigadeiros são deliciosamente macios e cremosos. Com uma variedade de sabores incríveis para escolher, você nunca vai cansar de experimentar nossos brigadeiros. Além disso, eles são perfeitos para festas e eventos. Faça seus convidados se sentirem especiais oferecendo-lhes nossos deliciosos brigadeiros. Experimente agora!"</p>
+            </div>
+        </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Doce tentação: Não resista aos nossos doces</h2>
+            <div class="swiper-pagination"></div>
+              
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"> <img src="img/imagem1.jpg" alt="" class="swiper__img"></div>
+                  <div class="swiper-slide"> <img src="img/imagem2.jpg" alt="" class="swiper__img"></div>
+                  <div class="swiper-slide"> <img src="img/imagem3.jpg" alt="" class="swiper__img-height"></div>
+                  <div class="swiper-slide"> <img src="img/beijinho.jpg" alt="" class="swiper__img-height"></div>
+                  <div class="swiper-slide"> <img src="img/brigadeiro.jpg" alt="" class="swiper__img-height"></div>
+
+                  ...
+                </div>
+                <!-- If we need pagination -->
+                
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
+                
+            
+        </section>
+
+      
+
+          
+              
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+        <script>
+                        const swiper = new Swiper('.swiper', {
+            
+            spaceBetween: 10,
+            slidesPerView: 3,
+                        pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            });
+        </script>
+
+    
+</body>
+</html>

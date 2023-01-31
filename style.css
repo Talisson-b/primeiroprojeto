@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url(/styles/header.css);
+@import url(/styles/sobre.css);
+@import url(/styles/carrossel.css);
+
+
+
+:root{
+    --cor-principal:#dd3e3eaf;
+    --rosa:#FFA07A;
+    --azul:#87CEFA;
+    --fonte:'Roboto', sans-serif;
+    --branco: #f2f0f0;
+}
+
+body{
+    font-family:var(--fonte) ;
+    font-weight: 500;
+    color: var(--);
+    
+}
+

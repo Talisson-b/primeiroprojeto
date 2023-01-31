@@ -1,0 +1,27 @@
+.cabecalho{
+    display: flex;
+    padding: 3em;
+
+    
+}
+
+    
+
+.logo__img {
+    height: 55px;
+width: 55px;
+
+
+}
+
+.icones__img1, .icones__img2{
+    height: 55px;
+    width: 55px;
+ 
+    
+    
+}
+.icones__img1{
+    margin-left: 12em;
+
+}
