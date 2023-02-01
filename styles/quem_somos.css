@@ -1,0 +1,12 @@
+.quem__somos{
+    text-align: center;
+}
+
+.quem__somos-titulo {
+font-size: 18px;
+color: var(--rosa);
+text-transform: uppercase;
+background: #f2f0f0;
+padding: 1em 0 0.5em 0;
+font-weight: 700;
+}
